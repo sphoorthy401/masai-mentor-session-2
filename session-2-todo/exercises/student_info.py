@@ -48,9 +48,9 @@ def calculate_grade(score):
     elif score >= 80:
         return 'B'
     elif score >= 70:
-        return 'D'  # ← BUG: Should be 'C'!
+        return 'C'  # ← BUG: Should be 'C'!
     elif score >= 60:
-        return 'C'  # ← BUG: Should be 'D'!
+        return 'D'  # ← BUG: Should be 'D'!
     else:
         return 'F'
 
